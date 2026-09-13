@@ -40,5 +40,6 @@ docker run --rm -e PORT=9000 -p 9000:9000 fanga-global
 
 - `dist/index.html` : contenu, navigation et coordonnées.
 - `dist/styles.css` : mise en page responsive, couleurs et typographie.
-- `dist/app.js` : menu mobile, fenêtres de détail des expertises et navigation active.
+- `dist/ai.css` : présentation de l’offre IA, schéma multi-agents, valeurs et coordonnées.
+- `dist/app.js` : menu mobile, fenêtres de détail des expertises, sélection des agents IA et navigation active.
 - `dist/assets` : logo et visuels fournis, images optimisées pour le web.
