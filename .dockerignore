@@ -1,0 +1,6 @@
+# Seuls le serveur et les fichiers publics entrent dans le contexte Docker.
+**
+!Dockerfile
+!server.mjs
+!dist/
+!dist/**
