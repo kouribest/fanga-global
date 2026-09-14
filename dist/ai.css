@@ -1,5 +1,13 @@
 /* Offre IA et compléments éditoriaux FANGA. */
-.header-inner { gap: 22px; }
+.header-inner { gap: 16px; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+.language-switcher { display: flex; flex-shrink: 0; }
+.language-switcher select { font: 600 .8125rem var(--font); color: var(--navy); background: var(--pale); border: 1px solid var(--line); border-radius: 5px; min-height: 44px; min-width: 66px; padding: 0 9px; cursor: pointer; }
+.language-switcher select:hover { border-color: #a7812a; }
+.language-switcher select:focus-visible { outline: 3px solid var(--gold); outline-offset: 4px; }
+.contact-details { min-width: 0; }
+.email-link { font-size: clamp(1rem, 1.7vw, 1.4rem); overflow-wrap: anywhere; gap: 12px; }
+.email-link span { flex-shrink: 0; }
 .navigation { gap: 20px; }
 .navigation .nav-ai { color: #8b6611; font-weight: 650; }
 .expertise-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -91,7 +99,7 @@
   .expertise-card .service-tags { min-height: 2.7em; }
   .expertise-card .card-link { font-size: .8rem; }
 }
-@media (min-width: 901px) and (max-width: 1100px) {
+@media (min-width: 901px) and (max-width: 1200px) {
   .header { height: 80px; }
   .header-cta { margin-left: auto; }
   .navigation { display: none; position: absolute; top: 80px; left: 0; right: 0; background: #fff; padding: 20px 32px; border-bottom: 1px solid var(--line); box-shadow: 0 12px 20px #0001; }
@@ -129,6 +137,11 @@
   .footer-main nav { justify-content: flex-start; }
 }
 @media (max-width: 650px) {
+  .header-cta { display: none; }
+  .header-inner { gap: 12px; }
+  .language-switcher { margin-left: auto; }
+  .menu-toggle { margin-left: 0; }
+  .email-link { font-size: clamp(1rem, 5vw, 1.375rem); }
   .expertise-grid { grid-template-columns: minmax(0, 1fr); }
   .adoption-strip { padding: 24px; gap: 14px; }
   .adoption-icon { display: none; }

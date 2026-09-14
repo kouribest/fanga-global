@@ -1,1 +1,1 @@
-{"name":"fanga-global","version":"1.0.0","private":true,"description":"SPA FANGA GLOBAL — Digitalisation et données IoT pour le secteur minier","scripts":{"dev":"node server.mjs","start":"node server.mjs","check":"node --check dist/app.js"}}
+{"name":"fanga-global","version":"1.0.0","private":true,"description":"SPA FANGA GLOBAL — Digitalisation et données IoT pour le secteur minier","scripts":{"dev":"node server.mjs","start":"node server.mjs","check":"node --check dist/translations.js && node --check dist/app.js"}}

@@ -1,6 +1,6 @@
 # FANGA GLOBAL
 
-SPA vitrine en français pour l’accompagnement à la digitalisation et à l’exploitation des données IoT du secteur minier au Mali et en Afrique de l’Ouest.
+SPA vitrine en anglais et en français pour l’accompagnement à la digitalisation et à l’exploitation des données IoT du secteur minier au Mali et en Afrique de l’Ouest. L’anglais est la langue par défaut ; le sélecteur EN/FR mémorise le choix du visiteur dans son navigateur.
 
 ## Démarrer
 
@@ -39,7 +39,8 @@ docker run --rm -e PORT=9000 -p 9000:9000 fanga-global
 ## Modifier
 
 - `dist/index.html` : contenu, navigation et coordonnées.
+- `dist/translations.js` : traductions anglaises et françaises des contenus, liens e-mail et libellés d’accessibilité. Le HTML contient la version anglaise par défaut.
 - `dist/styles.css` : mise en page responsive, couleurs et typographie.
 - `dist/ai.css` : présentation de l’offre IA, schéma multi-agents, valeurs et coordonnées.
-- `dist/app.js` : menu mobile, fenêtres de détail des expertises, sélection des agents IA et navigation active.
+- `dist/app.js` : changement de langue, traductions des fiches d’expertise et agents IA, menu mobile et navigation active.
 - `dist/assets` : logo et visuels fournis, images optimisées pour le web.
